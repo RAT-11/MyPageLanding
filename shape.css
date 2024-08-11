@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(130, 210, 249);
+    
+}
+#left{
+    position: relative;
+    width:40% ;
+    height: 100%;
+    background-color: white;
+}
+#lnav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+#lnavr a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+}
+#left #textcenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#textcenter h1{
+    font-size: 80px;
+    font-weight: 900;
+}
+#textcenter p{
+    opacity: .4;
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#textcenter a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+#right{
+    width: 60%;
+    height:100%;
+    
+}
+#rtop{
+    width: 100%;
+    height: 50%;   
+}
+#rbottom{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(184, 228, 248);
+    background-image: url(https://www.keystonesubic.com/storage/2023/03/web-devlopment.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+#rtopleft{
+    width: 55%;
+    height: 100%;
+    background-color: rgb(249, 184, 233);
+    background-image: url(https://cdn.prod.website-files.com/6410ebf8e483b5bb2c86eb27/6410ebf8e483b53d6186fc53_ABM%20College%20Web%20developer%20main.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#rtopright{
+    width: 45%;
+    height: 100%;
+    background-color: rgb(216, 233, 239);   
+}
